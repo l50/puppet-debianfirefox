@@ -2,18 +2,19 @@
   "name": "l50-debianfirefox",
   "version": "0.1.0",
   "author": "l50",
-  "summary": "Install Firefox on Debian and replace Iceweasel symlink",
+  "summary": "Install Firefox on Kali and replace Iceweasel symlink",
   "license": "MIT",
-  "source": "",
-  "project_page": null,
-  "issues_url": null,
+  "source": "https://github.com/l50/puppet-debianfirefox",
+  "project_page": "https://github.com/l50/puppet-debianfirefox",
+  "issues_url": "https://github.com/l50/puppet-debianfirefox",
   "operatingsystem_support": [
    {
-   "operatingsystem": "Ubuntu",
+   "operatingsystem": "Kali",
    "operatingsystemrelease": []
    }
   ],
   "dependencies": [
     {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+    {"name":"puppetlabs-git","version_requirement":">= 1.0.0"}
   ]
 }
